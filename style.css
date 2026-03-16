@@ -98,12 +98,16 @@ a{
 
 .container .sidebar{
     background-color: var(--color-text-secondary);
-    min-width: 30rem;
+    min-width: 25rem;
     min-height: 100vh;
     color: white;
 
     display: flex;
     justify-content: center;
+}
+
+.container .sidebar div:not(:first-child) h1{
+  font-weight: var(--font-semi-bold);
 }
 
 .container .side_bar_content div{
@@ -116,25 +120,28 @@ a{
 }
 
 .container .side_bar_content div:first-of-type{
-  font-size: 30px;
-  margin: 2rem 0;
+  font-size: 20px;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
 }
 
 .container .side_bar_content div:first-of-type i{
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .container .side_bar_content div:not(:first-of-type){
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
+  font-size: 15px;
+  margin-bottom: 1.3rem;
 }
 
 .container .side_bar_content div:not(:first-of-type) i{
-  font-size: 35px;
+  font-size: 28px;
 }
 
 .container .side_bar_content div:nth-child(7){
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 /* dashboard */
@@ -177,4 +184,10 @@ a{
 .container .dashboard .nav_bar i:nth-of-type(3){
   margin-left: auto;
   margin-right: 0.3rem;
+}
+
+
+
+.container .content_area{
+
 }
