@@ -104,10 +104,15 @@ a{
 
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .container .sidebar div:not(:first-child) h1{
   font-weight: var(--font-semi-bold);
+}
+
+.container .side_bar_content{
+  position: fixed;
 }
 
 .container .side_bar_content div{
